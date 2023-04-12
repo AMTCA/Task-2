@@ -1,0 +1,4 @@
+Dalam Aplikasi Simpan Pinjam yang saya buat, saya membuat 3 file html. 
+Index.html bertujuan untuk menampilkan hasil inputan dan 2 button untuk mengakses form Peminjaman dan form pengembalian. 
+Dimana 2 file tersebut berisi form peminjaman dan form pengembalian. 
+Pada saat pelanggan mengisi form pengembalian atau form peminjaman, hasil dari inputan tersebut akan di tampilkan di halaman akhir (index.html). 

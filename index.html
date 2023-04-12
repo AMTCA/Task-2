@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Test Crimson 2</title>
+</head>
+<body>
+    <div class="container">
+    <form-group>
+    <a href="Form Pinjam.html"><button>Pinjam</button></a>
+    <a href="Form Simpan.html"><button>Bayar</button></a>
+    </form-group>
+    <h1>Aplikasi Simpan Pinjam </h1>
+    <hr>
+    <h2>Riwayat Transaksi</h2>
+    <hr>
+    <hr>
+    <div id="hasil"></div>
+    <p id="hasil2"></p>
+    <script>
+        // Mendapatkan data dari formulir pada halaman pertama
+        const urlParams = new URLSearchParams(window.location.search);
+        const input1 = urlParams.get('nama');
+        const input2 = urlParams.get('Pinjaman');
+      
+        // Menampilkan hasil input pada halaman kedua
+        const hasilElemen1 = document.getElementById('nama');
+        hasilElemen1.innerHTML = `Hasil input 1: ${input1}`;
+      
+        const hasilElemen2 = document.getElementById('pinjaman');
+        hasilElemen2.innerHTML = `Hasil input 2: ${input2}`;
+        const hasilElemen = document.getElementById('hasil');
+        hasilElemen.innerHTML = `nama': ${nama}, Pinjaman: ${Pinjaman}`;
+      </script>
+      
+</body>
+</html>
